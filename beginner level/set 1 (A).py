@@ -2,8 +2,8 @@ def main():
     pass
 a=int(raw_input())
 if(a>0):
-    print("postive")
+    print("Postive")
 elif(a<0):
-    print("negative")
+    print("Negative")
 else:
-    print("zero")
+    print("Zero")
