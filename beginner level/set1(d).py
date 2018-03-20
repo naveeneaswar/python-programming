@@ -1,7 +1,7 @@
 def main():
     pass
 list=str(raw_input())
-if(list>='a' and list<='z'):
+if list.isalpha():
     print("Alphabet")
 else:
     print("No")
