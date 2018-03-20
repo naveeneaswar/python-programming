@@ -1,11 +1,9 @@
-def main():
-    pass
-a=int(raw_input())
-b=int(raw_input())
-c=int(raw_input())
-if(a>b and a>c):
-    print(a)
-elif(b>a and b>c):
-    print(b)
+X=raw_input()
+Y=raw_input()
+Z=raw_input()
+if (X>Y>Z):
+    print ('X')
+elif (Y>X>Z):
+    print ('Y')
 else:
-    print(c)
+    print ('Z')
