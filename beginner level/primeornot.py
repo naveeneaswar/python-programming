@@ -1,9 +1,9 @@
 a=int(input("Enter number: "))
-k=0
+sum=0
 for i in range(2,a//2+1):
     if(a%i==0):
-        k=k+1
-if(k<=0):
+        sum=sum+1
+if(sum<=0):
     print("yes")
 else:
     print("no")
