@@ -13,4 +13,4 @@ for num in range(a,b+1):
        temp //= 10
 
    if num == sum:
-       print(num)
+       print num,
